@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 const cookieParser= require("cookie-parser");
 const cors= require("cors");
 dotenv.config();
+var nodemailer = require('nodemailer');
 
 //ROUTES IMPORTATION
 const studentRoute= require("./routes/student/index");
